@@ -1,0 +1,1112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*font-family: 'Source Code Pro', monospace;
+font-family: Source Code Pro;*/
+
+
+/*--------
+Header CSS
+--------*/
+
+header {
+    background-color: #2D313F !important;
+}
+
+.container-fluid {
+    padding-right: 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-left: 8px;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    border-width: 0 !important;
+    color: #9399AE !important;
+    line-height: 80px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 0 30px !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.collapse.navbar-collapse {
+    display: inline-block !important;
+}
+
+.active {
+    background: #61698e;
+    color: #f2f5ff !important;
+}
+
+.nav-link:hover {
+    color: #f2f5ff !important;
+    background-color: #61698e;
+    transition: 0.5s;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.buy-btn {
+    font-family: 'Source Code Pro', monospace;
+    color: #ffffff;
+    background-color: #3d4358;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    top: 0;
+    border-radius: 0;
+    padding: 0 30px!important;
+    line-height: 80px;
+    border: none;
+    border-color: rgba(255, 255, 255, .1);
+    letter-spacing: 1px;
+}
+
+.buy-btn:hover {
+    color: #f2f5ff !important;
+    background-color: #61698e;
+    transition: 0.5s;
+}
+
+
+/*Banner CSS*/
+
+.banner-body {
+    width: 100%;
+    background-color: rgb(41, 44, 54);
+    padding: 170px 0px;
+}
+
+.banner-bg-1 {
+    width: 100%;
+    height: 80px;
+    padding: 0;
+    background-color: rgba(48, 53, 71, 0.3);
+}
+
+
+/*----------
+Banner-1 CSS
+-----------*/
+
+.banner-1 span {
+    font-family: "Source Code Pro" !important;
+    height: auto;
+    width: auto;
+    color: rgb(81, 90, 120);
+    text-decoration: none;
+    line-height: 80px;
+    font-weight: 600;
+    font-size: 40px;
+    padding-left: 95px;
+    padding-right: 55px;
+}
+
+.banner-1 p {
+    font-family: "Source Code Pro";
+    height: auto;
+    width: auto;
+    color: rgb(132, 140, 151);
+    line-height: 80px;
+    font-weight: 600;
+    font-size: 50px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+}
+
+
+/*----------
+Banner-2 CSS
+-----------*/
+
+.banner-2 {
+    width: 100%;
+    height: 80px;
+    padding: 0;
+}
+
+.banner-2 span {
+    font-family: "Source Code Pro" !important;
+    height: auto;
+    width: auto;
+    color: rgb(81, 90, 120);
+    text-decoration: none;
+    line-height: 80px;
+    font-weight: 600;
+    font-size: 40px;
+    padding-left: 95px;
+    padding-right: 55px;
+}
+
+.banner-2 p {
+    font-family: "Source Code Pro" !important;
+    color: rgb(174, 241, 255);
+    text-align: left;
+    line-height: 80px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.banner-2 p h1 {
+    display: inline-block !important;
+}
+
+.banner-2-text {
+    display: inline-block;
+    color: rgb(174, 241, 255) !important;
+}
+
+.banner-2-text-2 {
+    color: rgb(232, 163, 236) !important;
+    line-height: 80px !important;
+    font-weight: 600 !important;
+    font-size: 50px !important;
+    padding: 0px 30px !important;
+}
+
+.banner-2-text-3 {
+    display: inline-block;
+    color: white !important;
+}
+
+.banner-2-text-4 {
+    font-family: "Source Code Pro" !important;
+    color: rgb(255, 215, 156) !important;
+    text-align: left !important;
+    line-height: 80px !important;
+    letter-spacing: 0px !important;
+    font-weight: 600 !important;
+    font-size: 50px !important;
+    padding: 0px !important;
+}
+
+
+/*----------
+Banner-3 CSS
+-----------*/
+
+.banner-3 span {
+    font-family: "Source Code Pro" !important;
+    height: auto;
+    width: auto;
+    color: rgb(81, 90, 120);
+    text-decoration: none;
+    line-height: 80px;
+    font-weight: 600;
+    font-size: 40px;
+    padding-left: 95px;
+    padding-right: 55px;
+}
+
+.banner-3 p {
+    font-family: "Source Code Pro" !important;
+    color: rgb(174, 241, 255);
+    text-align: left;
+    line-height: 80px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.banner-3-text {
+    display: inline-block;
+}
+
+.banner-3-text span {
+    font-family: 'Source Code Pro', monospace !important;
+}
+
+.banner-3-text-2 {
+    display: inline-block;
+    padding: 0px 30px !important;
+    color: white !important;
+}
+
+.banner-3-text-2 span {
+    color: rgb(232, 163, 236) !important;
+    line-height: 80px !important;
+    font-weight: 600 !important;
+    font-size: 50px !important;
+    padding: 0px 0px 0px 30px;
+}
+
+
+/*----------
+Banner-4 CSS
+-----------*/
+
+.banner-4 {
+    width: 100%;
+    height: 80px;
+    padding: 0;
+}
+
+.banner-4 span {
+    font-family: "Source Code Pro" !important;
+    height: auto;
+    width: auto;
+    color: rgb(81, 90, 120);
+    text-decoration: none;
+    line-height: 80px;
+    font-weight: 600;
+    font-size: 40px;
+    padding-left: 95px;
+    padding-right: 55px;
+}
+
+.banner-4 p {
+    font-family: "Source Code Pro" !important;
+    color: rgb(174, 241, 255);
+    text-align: left;
+    line-height: 80px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.banner-4-text {
+    display: inline-block;
+    color: rgb(232, 163, 236) !important;
+}
+
+.banner-4-text-2 {
+    color: rgb(174, 241, 255) !important;
+    line-height: 80px !important;
+    font-weight: 600 !important;
+    font-size: 50px !important;
+    padding: 0px 30px !important;
+}
+
+.banner-4-text-3 span {
+    color: rgb(255, 215, 156);
+    text-align: left;
+    line-height: 80px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 50px;
+    padding: 0;
+}
+
+.banner-4-text-3 {
+    display: inline-block;
+    color: white !important;
+}
+
+
+/*----------
+Banner-5 CSS
+-----------*/
+
+.banner-bottom {
+    margin-left: 180px;
+}
+
+.banner-bottom h1 {
+    display: inline-block;
+    font-family: "Source Code Pro";
+    color: rgb(215, 91, 131);
+    line-height: 32px;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: rgb(77, 45, 64);
+    padding: 30px 160px 30px 60px;
+}
+
+.banner-bottom button {
+    background-color: rgb(231, 97, 139);
+    font-family: "Source Code Pro";
+    color: rgb(255, 255, 255);
+    line-height: 32px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 30px 60px;
+    filter: blur(0px) grayscale(0%) brightness(100%);
+    border: none;
+    margin-left: -4px;
+}
+
+
+/*-----
+Bio CSS
+------*/
+
+.bio {
+    background-color: #FFD79C;
+}
+
+.bio-bg img {
+    width: 84%;
+    margin-left: 112px;
+}
+
+.bio-heading h1 {
+    margin-top: 60px;
+    margin-bottom: 55px !important;
+    display: inline-block;
+    background: rgba(44, 56, 98, 0.03);
+    color: #2a3d7f;
+    padding: 2px 15px;
+    font-family: "Source Code Pro";
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.bio-head-p {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    font-family: "Source Code Pro";
+    width: 77%;
+    margin-bottom: 4rem !important;
+}
+
+.bio-text-1 {
+    color: #e7618b;
+}
+
+.bio-text-2 {
+    color: #3e3de6;
+}
+
+.bio-text {
+    color: #2c3862 !important;
+    width: 77%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    margin-bottom: 65px;
+}
+
+.bio-details {
+    padding: 0;
+}
+
+.bio-text-3 {
+    font-weight: 700;
+}
+
+.bio-details-left {
+    background-color: #ffe9bb;
+    border: 1px solid #f5c886;
+    height: 330px;
+    width: 230px;
+    padding: 60px 60px 0px 35px;
+    margin-right: 10px;
+}
+
+.bio-details-left h1 {
+    font-family: 'Source Code Pro', Arial, Tahoma, sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #7b4925;
+    margin-bottom: 15px;
+}
+
+.bio-details-left p {
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 600;
+    color: #d8bc93;
+    margin-bottom: 15px;
+    font-family: 'Source Code Pro', Arial, Tahoma, sans-serif;
+}
+
+.bio-details-right {
+    background-color: #cdf6ff;
+    height: 370px;
+    width: 230px;
+    padding: 60px 60px 0px 35px;
+    border: 1px solid #f5c886;
+}
+
+.bio-details-right h1 {
+    font-family: 'Source Code Pro', Arial, Tahoma, sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #1f95b2;
+    margin-bottom: 15px;
+}
+
+.bio-details-right p {
+    font-family: 'Source Code Pro', Arial, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #1f95b2;
+}
+
+.btn-1 {
+    color: #ffffff;
+    background-color: #e7618b;
+    border-color: transparent;
+    font-family: Source Code Pro;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 30px 60px 30px 60px;
+    transition: 0.3s;
+}
+
+.btn-1:hover {
+    color: #ffffff;
+    background-color: #c61950;
+    border-color: transparent;
+    transition: 0.3s;
+}
+
+.profile img {
+    height: 725px;
+    margin-left: 120px;
+}
+
+.tips {
+    height: 110px;
+    width: 480px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 15px 15px 15px 0;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.tips i {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(0, 0, 0, .15);
+}
+
+.tips-border {
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+    height: 70px;
+    width: 1px;
+    color: rgba(0, 0, 0, .15);
+}
+
+.tips p {
+    color: #2c3862;
+    padding: 10px 15px 10px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*-------
+About CSS
+-------*/
+
+.about {
+    background-image: url(../img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 130px 0px;
+    background-color: #EDEFF3;
+    border-bottom: 1px solid #B4B9C2;
+}
+
+.about-head h1 {
+    margin-bottom: 70px;
+    margin-bottom: 55px !important;
+    display: inline-block;
+    background: rgba(44, 56, 98, 0.03);
+    color: #2a3d7f;
+    padding: 2px 15px;
+    font-family: "Source Code Pro";
+    font-size: 15px !important;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.about-head p {
+    font-family: 'Source Code Pro', Arial, Tahoma, sans-serif;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #232b46;
+    width: 80%;
+    margin-bottom: 100px;
+}
+
+.about-text {
+    color: #f47aa0;
+}
+
+.about-text-2 {
+    color: #423cc1;
+}
+
+.pad {
+    padding-bottom: 80px !important;
+}
+
+.pad-2 {
+    margin-top: 80px;
+}
+
+.about-content h4 {
+    padding: 50px 0px 20px 0px;
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #232b46;
+    font-family: 'Source Code Pro', Arial, Tahoma, sans-serif;
+}
+
+.about-content p {
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    padding-right: 100px;
+}
+
+.about-content p span {
+    font-weight: 700;
+}
+
+.about-bottom h1 {
+    display: inline-block;
+    color: rgb(215, 91, 131);
+    line-height: 32px;
+    font-size: 20px;
+    background-color: #eee3eb;
+    color: #e7618b;
+    padding: 25px 170px 25px 30px;
+    font-style: italic;
+}
+
+.about-bottom button {
+    background-color: rgb(231, 97, 139);
+    font-family: "Source Code Pro";
+    color: rgb(255, 255, 255);
+    line-height: 32px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 25px 60px;
+    filter: blur(0px) grayscale(0%) brightness(100%);
+    border: none;
+    margin-left: -4px;
+}
+
+.about-bottom button:hover {
+    background-color: #c61950;
+}
+
+
+/*---------
+Slide CSS
+----------*/
+
+.slide {
+    background-color: #EDEFF3;
+}
+
+.slide-head {
+    padding-top: 130px;
+}
+
+.slide-head h1 {
+    margin-bottom: 70px;
+    margin-bottom: 55px !important;
+    display: inline-block;
+    background: rgba(44, 56, 98, 0.03);
+    color: #2a3d7f;
+    padding: 2px 15px;
+    font-family: "Source Code Pro";
+    font-size: 15px !important;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.slide-head p {
+    font-family: 'Source Code Pro', Arial, Tahoma, sans-serif;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #232b46;
+    width: 80%;
+    margin-bottom: 100px;
+}
+
+.slide-text {
+    color: #f47aa0;
+}
+
+.slide-text-2 {
+    color: #423cc1;
+}
+
+.slide-bottom {
+    background-image: url(../img/abcd.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0px;
+}
+
+.testimonial {
+    background-color: #F7F9FE;
+    padding: 30px;
+    width: 800px;
+    margin-left: 25%;
+    margin-bottom: 100px;
+}
+
+.testimonial-content {
+    text-align: center;
+}
+
+.testimonial-content img {
+    margin-bottom: 40px;
+}
+
+.testimonial-content p {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+    color: #232b46;
+    font-size: 20px;
+    line-height: 25px;
+    font-style: italic;
+    padding: 0px 75px;
+}
+
+.testimonial-dot {
+    color: #f47aa0;
+    font-size: 45px;
+    margin-top: -30px;
+}
+
+.testimonial-content h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    color: #232b46;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.review {
+    text-align: end;
+    padding-right: 90px;
+}
+
+.review span {
+    background-color: rgb(240, 190, 72);
+    padding: 9px;
+    line-height: 20px;
+    font-size: 14px;
+    color: white;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.review span i {
+    margin-bottom: 30px;
+}
+
+.review h1 {
+    font-family: 'Source Code Pro', Arial, Tahoma, sans-serif;
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 600;
+    letter-spacing: -10px;
+    color: #232b46;
+    margin-bottom: 15px;
+}
+
+.review p {
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    color: #2c3862;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+
+/*----------
+Branding CSS
+-----------*/
+
+.brand {
+    background-image: url(../img/photos-7.png);
+    height: 50vh;
+    background-color: #423cc1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0px;
+}
+
+.brand-main h3 {
+    margin: auto;
+    display: inline-block;
+    width: 20%;
+    background: #4a45c4;
+    color: #f3f3fb;
+    padding: 2px 15px;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    font-family: "Source Code Pro", Helvetica, Arial, sans-serif;
+}
+
+.brand-main img {
+    width: 15%;
+    display: inline-block !important;
+    padding: 0px 20px;
+}
+
+.brand-main {
+    margin: 0px 50px;
+}
+
+.brand-main img:hover {
+    background-color: #3F39B7;
+    transition: 0.3s;
+}
+
+
+/*------
+Form CSS
+------*/
+
+.form {
+    background-color: #292c36;
+    padding: 120px 0px;
+}
+
+.form-head h1 {
+    background: #333640 !important;
+    color: #848c97 !important;
+    margin-bottom: 70px;
+    margin-bottom: 55px !important;
+    display: inline-block;
+    background: rgba(44, 56, 98, 0.03);
+    color: #2a3d7f;
+    padding: 2px 15px;
+    font-family: "Source Code Pro";
+    font-size: 15px !important;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.form-head p {
+    font-family: 'Source Code Pro', Arial, Tahoma, sans-serif;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #aef1ff;
+    margin-bottom: 100px;
+    width: 57%;
+}
+
+.form-text {
+    color: white;
+}
+
+.form-text-2 {
+    color: #ffd79c;
+}
+
+.form-text-3 {
+    color: #e8a3ec;
+}
+
+.form-body h1 {
+    font-family: 'Source Code Pro', Arial, Tahoma, sans-serif;
+    color: #aef1ff;
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.form-body p {
+    color: #7a828d;
+    margin: 0 0 15px;
+    width: 260px;
+    font-size: 17px;
+    margin-bottom: 45px;
+}
+
+.form-body h2 {
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 600;
+    color: #f47aa0;
+    font-family: 'Source Code Pro', Arial, Tahoma, sans-serif;
+}
+
+.form-line {
+    height: 1px;
+    background-color: #e2e2e2;
+    width: 90px;
+}
+
+.time {
+    color: #ffd79c;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-family: "Source Code Pro", Helvetica, Arial, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 8px;
+}
+
+.input-1,
+.input-4 {
+    width: 100%;
+    color: white;
+    padding: 7px;
+    background-color: rgba(34, 37, 46, 1);
+    margin-bottom: 15px;
+    border: none;
+    font-weight: 600;
+}
+
+.input-2 {
+    width: 49%;
+    color: white;
+    padding: 7px;
+    background-color: rgba(34, 37, 46, 1);
+    margin-bottom: 15px;
+    border: none;
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+.input-3 {
+    width: 49%;
+    color: white;
+    padding: 7px;
+    background-color: rgba(34, 37, 46, 1);
+    margin-bottom: 15px;
+    border: none;
+    font-weight: 600;
+}
+
+.input-5 {
+    width: 100%;
+    color: white;
+    padding: 7px;
+    background-color: rgba(34, 37, 46, 1);
+    margin-bottom: 15px;
+    border: none;
+    font-weight: 600;
+    height: 200px;
+    padding: 5px 0px 165px 10px;
+}
+
+.form-btn {
+    background-color: rgb(231, 97, 139);
+    font-family: "Source Code Pro";
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 20px;
+    padding: 25px 60px;
+    filter: blur(0px) grayscale(0%) brightness(100%);
+    border: none;
+    width: 100%;
+}
+
+.form-btn:hover {
+    background-color: #c61950;
+}
+
+
+/*--------
+Footer CSS
+--------*/
+
+footer {
+    padding-top: 80px;
+    background-color: #292c36;
+}
+
+.social-media h5 {
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 600;
+    color: #f2f5ff;
+    font-family: "Source Code Pro", Helvetica, Arial, sans-serif;
+    margin-bottom: 60px;
+}
+
+.social-media span i {
+    color: #3b4471;
+    font-size: 28px;
+    padding-right: 20px;
+    transition: 0.3s;
+}
+
+.social-media span i:hover {
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.footer-middle h5 {
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 600;
+    color: #f2f5ff;
+    font-family: "Source Code Pro", Helvetica, Arial, sans-serif;
+    margin-bottom: 80px;
+}
+
+.footer-middle span i {
+    color: #3b4471;
+    font-size: 30px;
+}
+
+.number {
+    color: #aef1ff;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.number_1 {
+    color: #df9de3;
+}
+
+.number_2 {
+    color: #ffd79c;
+}
+
+.mail {
+    color: #aef1ff;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.mail_1 {
+    color: #fff;
+}
+
+.mail_2 {
+    color: #df9de3;
+}
+
+.address {
+    margin: 0 0 15px;
+    color: #cccccc;
+    width: 285px;
+    font-size: 17px;
+}
+
+.footer-right h5 {
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 600;
+    color: #f2f5ff;
+    font-family: "Source Code Pro", Helvetica, Arial, sans-serif;
+    margin-bottom: 80px;
+}
+
+.footer-right span i {
+    color: #3b4471;
+    font-size: 30px;
+}
+
+.footer-right h2 {
+    color: #cccccc;
+    font-size: 18px;
+}
+
+.footer-right h3 {
+    color: #aef1ff;
+    font-size: 18px;
+}
+
+.footer-right h3 span {
+    color: #ffd79c;
+}
+
+.victoria {
+    color: #ffd79c;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.victoria span {
+    color: #aef1ff;
+}
+
+.australia {
+    font-size: 18px;
+    color: #df9de3;
+}
+
+
+/*------------
+Copyright CSS
+-------------*/
+
+.copyright {
+    padding: 25px 0 0 50px;
+    background-color: #292c36;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright h1 {
+    color: #cccccc;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.copyright-link {
+    color: #3b4471;
+    transition: 0.3s;
+}
+
+.copyright-link:hover {
+    color: #42bfce;
+    transition: 0.3s;
+    cursor: pointer;
+}
